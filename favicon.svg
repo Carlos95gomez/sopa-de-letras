@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <!-- Fondo blanco -->
+    <rect width="32" height="32" fill="white"/>
+    
+    <!-- Primera fila -->
+    <text x="2" y="8" font-family="Arial" font-size="8" fill="black">S</text>
+    <text x="10" y="8" font-family="Arial" font-size="8" fill="black">O</text>
+    <text x="18" y="8" font-family="Arial" font-size="8" fill="black">P</text>
+    <text x="26" y="8" font-family="Arial" font-size="8" fill="black">A</text>
+    
+    <!-- Segunda fila -->
+    <text x="2" y="16" font-family="Arial" font-size="8" fill="black">W</text>
+    <text x="10" y="16" font-family="Arial" font-size="8" fill="black">O</text>
+    <text x="18" y="16" font-family="Arial" font-size="8" fill="black">R</text>
+    <text x="26" y="16" font-family="Arial" font-size="8" fill="black">D</text>
+    
+    <!-- Tercera fila -->
+    <text x="2" y="24" font-family="Arial" font-size="8" fill="black">L</text>
+    <text x="10" y="24" font-family="Arial" font-size="8" fill="black">E</text>
+    <text x="18" y="24" font-family="Arial" font-size="8" fill="black">T</text>
+    <text x="26" y="24" font-family="Arial" font-size="8" fill="black">S</text>
+    
+    <!-- Cuarta fila -->
+    <text x="2" y="32" font-family="Arial" font-size="8" fill="black">A</text>
+    <text x="10" y="32" font-family="Arial" font-size="8" fill="black">B</text>
+    <text x="18" y="32" font-family="Arial" font-size="8" fill="black">C</text>
+    <text x="26" y="32" font-family="Arial" font-size="8" fill="black">D</text>
+</svg>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Sopa de Letras</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Generador de Sopa de Letras</h1>
+            <div class="enlaces-nav">
+                <a href="#" onclick="mostrarAcercaDe()">Acerca de</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="controles">
+            <div class="seccion-entrada">
+                <input type="text" id="entradaPalabra" placeholder="Ingresa una palabra">
+                <button onclick="agregarPalabra()">Agregar Palabra</button>
+            </div>
+            <div class="seccion-botones">
+                <button onclick="generarSopa()" id="botonGenerar" disabled>Generar Sopa</button>
+                <button onclick="imprimirSopa()">Imprimir</button>
+            </div>
+        </div>
+        <div id="sopaPalabras" class="sopa-palabras">
+            <div id="cuadricula" class="cuadricula"></div>
+        </div>
+        <div class="contenedor-palabras">
+            <h3>Palabras a buscar:</h3>
+            <div id="listaPalabras" class="lista-palabras"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="iconos-sociales">
+            <a href="https://www.facebook.com/profile.php?id=61572410000879"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/Carlos95gomez"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/carlos-arevalo-488438258"><i class="fab fa-linkedin"></i></a>          
+        </div>
+        <p class="copyright">© 2025 Carlos Arévalo. Este proyecto está licenciado bajo la 
+            <a href="https://opensource.org/licenses/MIT" target="_blank">Licencia MIT</a>.
+        </p>
+    </footer>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
